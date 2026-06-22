@@ -1,0 +1,6 @@
+{
+  "name": "Mada POS System",
+  "description": "A tax-compliant digital Point of Sale (POS) system for Saudi retail, featuring ZATCA compliance, Category Management, Daily Closures, and active payment configuration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

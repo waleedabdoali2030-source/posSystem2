@@ -157,7 +157,7 @@ export default function LastInvoiceView({ shiftState, zatcaConfig, currentUser }
                       <div className="flex items-center gap-2">
                         <FileText className={`w-4 h-4 ${isSelected ? 'text-emerald-600' : 'text-slate-400'}`} />
                         <span className="text-xs font-black text-slate-900 font-mono">
-                          #{sale.id.replace('sale-', '').substring(0, 8).toUpperCase()}
+                          #{sale.id.replace('sale-', '').toUpperCase()}
                         </span>
                       </div>
 
@@ -251,7 +251,7 @@ export default function LastInvoiceView({ shiftState, zatcaConfig, currentUser }
                       <div className="flex justify-between">
                         <span>Inv No:</span>
                         <span className="font-extrabold text-slate-950 font-mono">
-                          {selectedSale.id.replace('sale-', '').substring(0, 10).toUpperCase()}
+                          {selectedSale.id.replace('sale-', '').toUpperCase()}
                         </span>
                       </div>
                       <div className="flex justify-between">

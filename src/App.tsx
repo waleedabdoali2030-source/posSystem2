@@ -190,7 +190,7 @@ export default function App() {
       });
 
       const newSaleRecord: ShiftSale = {
-        id: `sale-${Date.now()}-${Math.floor(Math.random() * 1000)}`,
+        id: `INV-${(shiftState.salesList?.length || 0) + 1}`,
         items: shiftItems,
         totalSales: salesWithVat,
         totalVat: vatAmount,
